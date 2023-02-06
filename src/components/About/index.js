@@ -1,9 +1,10 @@
 import React from 'react';
+import Nav from '../Nav'
 
 function About() {
   return (
-    <section className="my-5">
-      <div className="my-2">
+    <section>
+      <Nav></Nav>
         <div className="profile-img my-5">
         <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
         </div>
@@ -13,7 +14,6 @@ function About() {
         <p>
         I work with JavaScript, CSS, Node.js, React, and more!
         </p>
-      </div>
     </section>
   );
 }

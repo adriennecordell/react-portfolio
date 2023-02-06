@@ -4,6 +4,7 @@ import Portfolio from '../Portfolio'
 import Contact from '../Contact'
 import Resume from '../Resume'
 import PageContent from '../PageContent'
+import Nav from '../Nav'
 
 function Page({ currentPage }) {
 
@@ -24,7 +25,7 @@ function Page({ currentPage }) {
 
   return (
     <section>
-    
+    <Nav></Nav>
       <PageContent>{showPage()}</PageContent>
     </section>
   );
